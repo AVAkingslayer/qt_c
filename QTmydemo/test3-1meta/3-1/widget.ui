@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>439</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelBoy">
+       <property name="text">
+        <string>设置男孩年龄</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QSpinBox" name="spinBoxBoy"/>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="BtnBotincr">
+       <property name="text">
+        <string>boy长大一岁</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="Btnclinfo">
+       <property name="text">
+        <string>类的元对象信息</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="labelGirl">
+       <property name="text">
+        <string>设置女孩年龄</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QSpinBox" name="spinBoxGirl"/>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="BtnGirlincr">
+       <property name="text">
+        <string>girl长大一岁</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="Btnclear">
+       <property name="text">
+        <string>清空文本框</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPlainTextEdit" name="plainTextEdit"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>Btnclear</sender>
+   <signal>clicked()</signal>
+   <receiver>plainTextEdit</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>371</x>
+     <y>57</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>219</x>
+     <y>204</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

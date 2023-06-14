@@ -1,0 +1,9 @@
+F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/test02.dir
+F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
+F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/test02_autogen_timestamp_deps.dir
+F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/CMakeFiles/test02_autogen.dir

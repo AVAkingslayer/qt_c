@@ -1,0 +1,27 @@
+// Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*! \page winmigrate-qt-dll-example.html
+    \title Qt based Application Extension
+
+    This examples shows how to use the QWinWidget and QMfcApp classes to
+    implement a Qt based user interface in a plugin DLL.
+
+    \quotefromfile qtdll/main.cpp
+    The plugin implements and exports a \c C function \c showDialog that 
+    can be called by any Windows application to display a modal Qt dialog.
+    Before a Qt based user interface can be created a QApplication object
+    must exist, and the calling application's event loop and the Qt event 
+    loop must run together.
+
+    \printto extern "C"
+    The DLL entry point function \c DllMain uses the QMfcApp::pluginInstance
+    function to make sure that exactly one instance of QApplication exists
+    in the process, and that the DLL owning that instance stays loaded in 
+    memory.
+
+    \printuntil }
+    The \c C function \c showDialog is exported from the DLL and uses the
+    QWinWidget class to provide proper stacking and modality between the
+    native Win32 window and the QMessageBox.
+*/

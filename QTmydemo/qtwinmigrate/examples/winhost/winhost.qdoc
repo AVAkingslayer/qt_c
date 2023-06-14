@@ -1,0 +1,40 @@
+// Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).
+// SPDX-License-Identifier: BSD-3-Clause
+
+/*! \page winmigrate-win32-in-qt-example.html
+    \title Qt Application using Win32 Windows
+
+    This examples shows how to use the QWinHost class to use a native Win32
+    window inside a Qt based user interface.
+
+    \quotefromfile winhost/main.cpp
+    \skipto class HostWindow
+
+    \printto signals:
+    The HostWindow class is a subclass of QWinHost and reimplements the
+    virtual function QWinHost::createWindow() to register a Win32 window 
+    class using the RegisterClassEx API, and to create a window using the 
+    CreateWindow API. Note that the UNICODE version of all Win32 APIs is
+    used.
+
+    \printto protected:
+    The class implements a signal \c message to report status changes.
+
+    \printto if (window) switch
+    The static \c WndProc function implements the message handling of the
+    Win32 window. Since the method is static we have to use QWidget::find()
+    to get the QWidget object for the window handle. Since we want to use
+    the signal of the HostWindow class, which is the parent window of the
+    native Win32 window, we have to cast the QWidget pointer to HostWindow,
+    which is safe when using qobject_cast().
+
+    \printuntil };
+    The message is then handled in the switch statement. Unhandled messages 
+    are passed on to the default window procedure.
+
+    \printuntil }
+    The \c main function creates a standard Qt user interface using 
+    QMainWindow. The main window's central widget contains a
+    QLineEdit as well as the HostWindow. Messages sent by the HostWindow
+    object are displayed in the main window's default statusbar.
+*/

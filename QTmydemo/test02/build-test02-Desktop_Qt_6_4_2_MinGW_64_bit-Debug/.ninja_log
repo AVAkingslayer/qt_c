@@ -1,0 +1,21 @@
+# ninja log v5
+2	1054	7006326474188594	test02_autogen/timestamp	41c9a363ddb680b6
+2	1054	7006326474188594	test02_autogen/mocs_compilation.cpp	41c9a363ddb680b6
+2	1054	7006326474188594	F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/test02_autogen/timestamp	41c9a363ddb680b6
+2	1054	7006326474188594	F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/test02_autogen/mocs_compilation.cpp	41c9a363ddb680b6
+1055	4117	7006326506856964	CMakeFiles/test02.dir/test02_autogen/mocs_compilation.cpp.obj	b944187f5425c33a
+1065	4192	7006326507586892	CMakeFiles/test02.dir/main.cpp.obj	6984be4734379006
+1060	4262	7006326508289702	CMakeFiles/test02.dir/widget.cpp.obj	a8ed84206d5cb180
+4263	4555	7006326511165814	test02.exe	5a043572ba6d96fe
+6	278	7006359490966395	test02_autogen/timestamp	41c9a363ddb680b6
+6	278	7006359490966395	test02_autogen/mocs_compilation.cpp	41c9a363ddb680b6
+6	278	7006359490966395	F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/test02_autogen/timestamp	41c9a363ddb680b6
+6	278	7006359490966395	F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/test02_autogen/mocs_compilation.cpp	41c9a363ddb680b6
+286	2341	7006359511615974	CMakeFiles/test02.dir/widget.cpp.obj	a8ed84206d5cb180
+11	268	7006359637285236	test02_autogen/timestamp	41c9a363ddb680b6
+11	268	7006359637285236	test02_autogen/mocs_compilation.cpp	41c9a363ddb680b6
+11	268	7006359637285236	F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/test02_autogen/timestamp	41c9a363ddb680b6
+11	268	7006359637285236	F:/UESTC/qt_demo/test02/build-test02-Desktop_Qt_6_4_2_MinGW_64_bit-Debug/test02_autogen/mocs_compilation.cpp	41c9a363ddb680b6
+272	3015	7006359664757518	CMakeFiles/test02.dir/widget.cpp.obj	a8ed84206d5cb180
+276	3084	7006359665456837	CMakeFiles/test02.dir/main.cpp.obj	6984be4734379006
+3084	3285	7006359667429557	test02.exe	5a043572ba6d96fe
