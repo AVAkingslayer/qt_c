@@ -1,2 +1,2 @@
 # qt_c
-qt in windows/linnux
+qt in windows/Linux
