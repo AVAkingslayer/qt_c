@@ -44,7 +44,9 @@ Widget::~Widget()
 {
     delete ui;
 }
-
+/**
+*打开串口按钮
+*/
 void Widget::on_pushButton_2_clicked()
 {
     if(ui->pushButton_2->text()==QString("打开串口"))
