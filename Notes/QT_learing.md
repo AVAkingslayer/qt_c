@@ -2424,6 +2424,10 @@ git@github.com:AVAkingslayer/ava_c_demo.git
 git remote add origin https://github.com/AVAkingslayer/ava_c_demo.git
 ```
 
+未更新凭据或缓存：如果你之前在另一台电脑上使用了 Git 凭据存储或缓存密码的功能，但密码已经更改，那么推送时可能会使用过期的密码。在这种情况下，你需要更新凭据或清除缓存，并提供正确的密码。
+
+- 对于 Windows 操作系统，你可以打开控制面板，找到凭据管理器，并查找与 GitHub 相关的凭据。然后更新或删除存储的凭据。
+
 ## 10.实验室服务器上传代码
 
 ### ①基本步骤
