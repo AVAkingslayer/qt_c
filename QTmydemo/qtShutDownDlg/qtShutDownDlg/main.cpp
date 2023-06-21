@@ -18,8 +18,13 @@ int main(int argc, char *argv[])
     //QString datetimeStr = "2023-06-16 14:15:00";
     //qDebug()<<settime->SetSystemTime(datetimeStr);
     CRestartApp* restartapp;
-    QString sProPath="D:/software_new/QT5.9.9/5.9.9/mingw53_32/bin/assistant.exe";
-    restartapp->CreateProPath(sProPath);
-    restartapp->KillProName(sProPath);
+    QString sProPath;
+    //sProPath="D:/software_new/QT5.9.9/5.9.9/mingw53_32/bin/assistant.exe";
+    //sProPath=restartapp->GetExePath();
+    //restartapp->CreateProPath(sProPath);
+    //restartapp->KillProName(sProPath);
+    qDebug()<<restartapp->GetSysTime();
+    QString siniPath = "time.ini";
+    restartapp->InitINI(siniPath);
     return a.exec();
 }
