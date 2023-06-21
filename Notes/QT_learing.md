@@ -2408,7 +2408,13 @@ arg的使用类似于C中的printf中使用的格式输出符”和“C++中stri
 
 ④导致错误信息的原因是：子类没有实现父类的[纯虚函数](https://so.csdn.net/so/search?q=纯虚函数&spm=1001.2101.3001.7020)；
 在Qt中，首先要想到的是在一个类中添加了新的继承[QObject](https://so.csdn.net/so/search?q=QObject&spm=1001.2101.3001.7020)，并添加了 Q_OBJECT 宏，然后执行构造或重新构造，都会造成这个错误。
-根本原因是，只执行构造或重新构造，都不会编译新添加的宏[Q_OBJECT](https://so.csdn.net/so/search?q=Q_OBJECT&spm=1001.2101.3001.7020)。因此在这之前要执行qmake，让moc编译器去预编译Q_OBJECT，然后再执行构造，就不再报错了。                                    
+根本原因是，只执行构造或重新构造，都不会编译新添加的宏[Q_OBJECT](https://so.csdn.net/so/search?q=Q_OBJECT&spm=1001.2101.3001.7020)。因此在这之前要执行qmake，让moc编译器去预编译Q_OBJECT，然后再执行构造，就不再报错了。
+
+###  7.9ReStartapp
+
+7. 9.1报错
+
+   Qt:cannot open output file debug\XXX.exe: Permission denied：qt编辑器左侧菜单切换到项目选项，点击构建设置下面的删除按钮，然后重新运行调试。
 
 ## 8.TCP客户端/TCP服务端
 
